@@ -62,8 +62,8 @@ const Lightbox: React.FC<LightboxProps> = ({ photo, onClose, onNext, onPrevious 
       {/* Image Container */}
       <div className="max-w-full max-h-full flex flex-col items-center">
         <img
-          src={a}
-          alt={a}
+          src={photo.url}
+          alt={photo.title}
           className="max-w-full max-h-[80vh] object-contain rounded-lg"
         />
         
